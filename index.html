@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/Script.js"></script>
+    <script src="Scripts/stringService.js"></script>
+    <link rel="stylesheet" type="text/css" href="Styles.css">
+    <meta charset="UTF-8">
+    <title>Document 1</title>
+
+</head>
+<body
+
+<div ng-controller="myCtrl">
+    <table>
+        <tr>
+            <td>Your String</td>
+            <td><input type="text" ng-model="input"></td>
+        </tr>
+        <tr>
+            <td>Result</td>
+            <td><input type="text" ng-model="output"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="button" ng-click="transformString(input)" value="Process String"></td>
+        </tr>
+    </table>
+    </div>
+</body>
+</html>
